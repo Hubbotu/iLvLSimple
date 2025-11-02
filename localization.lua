@@ -3,7 +3,7 @@
     ====================================
     
     Système de traduction multilingue pour iLvLSimple
-    Support : Français, Anglais, Allemand, Espagnol
+    Support : Français, Anglais, Allemand, Espagnol, Russian
     
     Auteur : Mr Ghoosty / Ghoosty
     Version : 1.2.0
@@ -237,4 +237,5 @@ local function GetLocalizedText(key)
 end
 
 -- Rendre la fonction accessible globalement
+
 _G["iLvLSimple_L"] = GetLocalizedText
